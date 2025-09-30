@@ -55,9 +55,31 @@ Término 2
 
 ## 6. Diagramas con Mermaid
 
-```mermaid
-graph TD
-  A[Inicio] --> B[Desarrollo]
-  B --> C[Práctica]
-  C --> D[Fin]
-```
+    graph TD
+      A[Inicio] --> B[Desarrollo]
+      B --> C[Práctica]
+      C --> D[Fin]
+
+---
+
+## 7. Colapsables (detalles)
+
+<details>
+  <summary>Haz clic para ver más</summary>
+  
+  Aquí puedes ocultar o mostrar texto adicional.
+  
+  Incluso **listas**:
+  - Punto A
+  - Punto B
+</details>
+
+---
+
+## 8. HTML embebido
+
+<p style="color:blue;">Este es un texto azul usando HTML dentro de Markdown.</p>
+
+---
+
+✨ *Con esto tienes un panorama más amplio para desarrollar tu curso en Markdown.*

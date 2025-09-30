@@ -13,9 +13,9 @@ Ecuación en línea: $E = mc^2$
 
 Bloque de ecuación:
 
-$$
-\int_0^\infty x^2 e^{-x} dx = 2
-$$
+    $$
+    \int_0^\infty x^2 e^{-x} dx = 2
+    $$
 
 ---
 
@@ -69,8 +69,6 @@ Presiona <kbd>Ctrl</kbd> + <kbd>S</kbd> para guardar.
 ---
 
 ## 8. Audio y video incrustado
-
-Se puede usar HTML directamente:  
 
 <audio controls>
   <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">

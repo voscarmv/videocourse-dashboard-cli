@@ -43,3 +43,31 @@ function saludo() {
   console.log("¡Hola, mundo!");
 }
 ```
+
+---
+
+## 5. Citas
+
+> "La educación es el arma más poderosa para cambiar el mundo."  
+> — Nelson Mandela  
+
+---
+
+## 6. Enlaces e imágenes
+
+- [Visita OpenAI](https://www.openai.com)
+- ![Ejemplo de imagen](https://via.placeholder.com/150)
+
+---
+
+## 7. Tablas
+
+| Nombre   | Edad | País     |
+|----------|------|----------|
+| Ana      | 23   | México   |
+| Juan     | 30   | España   |
+| Mei      | 27   | China    |
+
+---
+
+✨ *Esto es solo un ejemplo de Markdown como introducción.*
