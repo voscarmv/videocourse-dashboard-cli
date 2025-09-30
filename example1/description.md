@@ -1,0 +1,1 @@
+Un curso de inteligencia artificial para automatizar ventas. ¿Dudas?, ¿Comentarios? [Ponte en contacto conmigo](https://google.com).
