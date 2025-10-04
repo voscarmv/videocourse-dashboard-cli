@@ -1,24 +1,24 @@
 {
-    "content_id": "example1",
+    "id": "example1",
     "name": "Título de ejemplo",
     "description": "./example1/description.md",
     "sections": [
         {
-            "section_id": "sec1",
+            "id": "sec1",
             "name": "1. Introducción",
             "markdown": "./example1/section1.md",
             "vidurl": "https://www.youtube.com/watch?v=C3rzzCbIZfI"
         },
         {
-            "section_id": "sec2",
+            "id": "sec2",
             "name": "2. Desarrollo",
-            "markdown": "./example1/section1.md",
+            "markdown": "./example1/section2.md",
             "vidurl": "https://www.youtube.com/watch?v=C3rzzCbIZfI"
         },
         {
-            "section_id": "sec3",
+            "id": "sec3",
             "name": "3. Conclusión",
-            "markdown": "./example1/section1.md",
+            "markdown": "./example1/section3.md",
             "vidurl": "https://www.youtube.com/watch?v=C3rzzCbIZfI"
         }
     ]

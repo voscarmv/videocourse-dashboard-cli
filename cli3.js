@@ -34,46 +34,46 @@ const key = process.env.key;
     )
     console.log(r2.data);
     const accesskey = r2.data.key;
-    const r3 = await axios.post(
-        'https://videocourse-api.vercel.app/section',
-        {
-            content_id: id,
-            id: 'lesson_1',
-            name: 'Lesson #1',
-            markdown: '## Lesson 1',
-            vidurl: 'https://www.youtube.com/watch?v=2cXJXacMT7o'
-        },
-        {
-            headers: {
-                'Authorization': `Bearer ${key}`,
-                'Content-Type': 'application/json',
-            }
-        }
-    );
-    const r4 = await axios.post(
-        'https://videocourse-api.vercel.app/section',
-        {
-            content_id: id,
-            id: 'lesson_2',
-            name: 'Lesson #2',
-            markdown: '## Lesson 2',
-            vidurl: 'https://www.youtube.com/watch?v=2cXJXacMT7o'
-        },
-        {
-            headers: {
-                'Authorization': `Bearer ${key}`,
-                'Content-Type': 'application/json',
-            }
-        }
-    );
-    const r5 = await axios.get(
-        `https://videocourse-api.vercel.app/content/${id}`,
-        {
-            headers: {
-                'Authorization': `Bearer ${accesskey}`,
-                'Content-Type': 'application/json',
-            }
-        }
-    )
-    console.log(r5.data);
+    // const r3 = await axios.post(
+    //     'https://videocourse-api.vercel.app/section',
+    //     {
+    //         content_id: id,
+    //         id: 'lesson_1',
+    //         name: 'Lesson #1',
+    //         markdown: '## Lesson 1',
+    //         vidurl: 'https://www.youtube.com/watch?v=2cXJXacMT7o'
+    //     },
+    //     {
+    //         headers: {
+    //             'Authorization': `Bearer ${key}`,
+    //             'Content-Type': 'application/json',
+    //         }
+    //     }
+    // );
+    // const r4 = await axios.post(
+    //     'https://videocourse-api.vercel.app/section',
+    //     {
+    //         content_id: id,
+    //         id: 'lesson_2',
+    //         name: 'Lesson #2',
+    //         markdown: '## Lesson 2',
+    //         vidurl: 'https://www.youtube.com/watch?v=2cXJXacMT7o'
+    //     },
+    //     {
+    //         headers: {
+    //             'Authorization': `Bearer ${key}`,
+    //             'Content-Type': 'application/json',
+    //         }
+    //     }
+    // );
+    // const r5 = await axios.get(
+    //     `https://videocourse-api.vercel.app/content/${id}`,
+    //     {
+    //         headers: {
+    //             'Authorization': `Bearer ${accesskey}`,
+    //             'Content-Type': 'application/json',
+    //         }
+    //     }
+    // )
+    // console.log(r5.data);
 })();
